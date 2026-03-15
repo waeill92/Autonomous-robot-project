@@ -1,0 +1,4 @@
+../Core/Src/motor_controller.cpp:16:1:MotorController::MotorController(TIM_HandleTypeDef*, uint32_t, GPIO_TypeDef*, uint16_t, GPIO_TypeDef*, uint16_t, TIM_HandleTypeDef*, uint32_t, GPIO_TypeDef*, uint16_t, GPIO_TypeDef*, uint16_t, Odometry*)	24	static
+../Core/Src/motor_controller.cpp:45:6:void MotorController::setSpeed(float, float)	24	static
+../Core/Src/motor_controller.cpp:64:6:void MotorController::stop()	16	static
+../Core/Src/motor_controller.cpp:77:6:void MotorController::moveDistance(float, float, float)	128	static

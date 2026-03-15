@@ -1,0 +1,5 @@
+../Core/Src/logic.cpp:23:6:void moveForward(float, float, float)	24	static
+../Core/Src/logic.cpp:28:17:void testMotor()	8	static
+../Core/Src/logic.cpp:33:17:void robotLoop()	4	static
+../Core/Src/logic.cpp:34:1:void __static_initialization_and_destruction_0()	48	static
+../Core/Src/logic.cpp:34:1:cpp)	8	static

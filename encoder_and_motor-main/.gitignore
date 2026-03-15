@@ -1,0 +1,52 @@
+# Build output folders
+build/
+Debug/
+Release/
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+*.o
+*.d
+*.a
+
+# STM32CubeIDE specific
+.settings/
+.project
+.cproject
+*.launch
+
+# Keil uVision
+*.uvguix.*
+*.uvoptx
+*.uvprojx
+*.axf
+*.scvd
+
+# IAR EWARM
+*.dep
+*.ewd
+*.ewp
+*.ewt
+*.ewd
+*.map
+*.obj
+
+# VS Code
+.vscode/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.ninja
+*.log
+
+# Backup / temp
+*~
+*.swp
+*.bak
+*.tmp
+*.user

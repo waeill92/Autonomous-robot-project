@@ -1,0 +1,23 @@
+description: Ultralytics YOLO11s model trained on /content/sample_data/data_train_ras/data.yaml
+author: Ultralytics
+date: '2025-09-25T20:37:57.005596'
+version: 8.3.203
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: cube
+  1: pyramid
+args:
+  batch: 1
+  fraction: 1.0
+  half: false
+  int8: true
+  dynamic: false
+  nms: false
+channels: 3
