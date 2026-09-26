@@ -15,8 +15,6 @@ encoder_and_motor-main/   # STM32 — PWM motor control + quadrature encoders
 Object_detection-main/    # Raspberry Pi — YOLOv8 vision pipeline + UART link
 ```
 
-> **Note on model files:** the `Object_detection-main/Models/` folder originally contained several exported/trained YOLO weight variants (`.pt`, OpenVINO, NCNN, INT8-quantized) that made this repo ~400 MB. The less essential exports were removed to keep the repo lightweight — the retained files are enough to show the model formats and export pipeline used.
-
 ## Mechanical
 
 - Chassis and obstacle-manipulation arm modeled in **SolidWorks** and 3D-printed in **PLA**.
@@ -63,8 +61,10 @@ Supporting scripts:
 
 Built for RoboCup ENSI 2025 by:
 - Wael Chaabi
+- Linda Ouaghlani
 - Mohamed Ali Maatoug
 - Mohamed Ali Elhamdi
 - Mohamed Rayen Kamel
+- Khaled Fakhfakh
 
 With thanks to **Association Robotique ENSI** for the opportunity.
